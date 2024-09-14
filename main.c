@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int main() {
-  printf("%s\n", "Hello world!");
+  int a, b;
+  scanf("%d %d",&a, &b);
+  printf("%s\n%d \n", "Hello world!", a+b);
   return 0;
 }
